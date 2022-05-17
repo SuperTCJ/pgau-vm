@@ -38,6 +38,8 @@ def handle(command):
         print('https://web-pgau-vm.w3spaces.com')
     elif command=='ext':
         os.system('exit')
+    elif cmds[0]=='$sudo'and cmds[1]==None:
+        print('Invalid syntax')
     else:
         print('invalid command or com file')  
 while True:
